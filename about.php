@@ -21,13 +21,122 @@
         <a href="package.php" >package</a>
         <a href="book.php" >book</a>
     </nav>
-    <div id="menu-btn" class="btn fas fa-bars"></div>
+    <div id="menu-btn" class="fas fa-bars"></div>
 </section>
 <!--header section end-->
 
 <div class="heading" style="background:url(images/about-us/aboutūs-banner.png)no-repeat">
     <h1>About Us</h1>
 </div>
+
+<!--about section -->
+<section class="about">
+    <div class="image">
+        <img src="images/about-us/about-us-img.jpg" alt="">
+    </div>
+
+    <div class="content">
+        <h3>Why Choose Us?</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti culpa sit ullam, repellendus fugit laboriosam et neque error fugiat alias ipsam inventore quos fuga quas vel velit ipsum quibusdam in?</p>
+
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum eos totam saepe sint vel impedit itaque ullam debitis sed similique.</p>
+
+        <div class="icons-container">
+            <div class="icons">
+                <i class="fas fa-map"></i>
+                <span>Top Destinations</span>
+            </div>
+            <div class="icons">
+                <i class="fas fa-hand-holding-usd"></i>
+                <span>Affordable Price</span>
+            </div>
+            <div class="icons">
+                <i class="fas fa-headset"></i>
+                <span>24/7 Guide Service</span>
+            </div>
+        </div>
+    </div>
+</section>
+<!--about section end -->
+
+<!--reviews section -->
+<section class="reviews">
+
+    <div class="swiper reviews-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slider slide">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem sint, eum numquam, accusantium possimus vitae animi nostrum ratione nulla rerum ad? Laudantium, nulla accusantium labore commodi quisquam soluta magni ullam?</p>
+                <h3>peter parker</h3>
+                <span>traveler</span>
+                <img src="images/clients/photography-7527978_1280.jpg" alt="">
+            </div>
+
+            <div class="swiper-slider slide">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro praesentium alias harum vero quod inventore officiis in architecto? Recusandae quis dicta, similique magnam autem tenetur.</p>
+                <h3>Natasha Romanoff</h3>
+                <span>traveler</span>
+                <img src="images/clients/girl-5028253_1280.jpg" alt="">
+            </div>
+
+            <div class="swiper-slider slide">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quisquam natus vel asperiores tempore ab nulla sunt nisi magnam nesciunt in odit reprehenderit distinctio eaque maxime cumque aspernatur velit, assumenda similique officiis repellendus neque culpa maiores! Voluptatum enim culpa iste.</p>
+                <h3>wanda</h3>
+                <span>traveler</span>
+                <img src="images/clients/girls-5021801_1280.jpg" alt="">
+            </div>
+
+            <div class="swiper-slider slide">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem sint, eum numquam, accusantium possimus vitae animi nostrum ratione nulla rerum ad? Laudantium, nulla accusantium labore commodi quisquam soluta magni ullam?</p>
+                <h3>daredevil</h3>
+                <span>traveler</span>
+                <img src="images/clients/man-920083_1280.jpg" alt="">
+            </div>
+
+            <div class="swiper-slider slide">
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad quasi accusamus voluptas odit porro voluptate!</p>
+                <h3>Janice</h3>
+                <span>traveler</span>
+                <img src="images/clients/woman-7712737_1280.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<!--reviews section end -->
+
+
+
 
 
 <!--footer section-->
