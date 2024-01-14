@@ -7,7 +7,7 @@
     --light-black:#777;
     --light-white:#EEE7DA;
     --dark-bg:rgba(0,0,0,.7);
-    --light-bg:#6d6192d2;
+    --light-bg:#bfbacfd2;
     --border:.1rem solid var(--black);
     --box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.1);
     --text-shadow: 0 0.5rem 1rem rgba(0,0,0,0.3);
@@ -204,7 +204,7 @@ section{
 .services .box-container .box{
     padding: 3rem 2rem;
     text-align: center;
-    background: var(--light-black);
+    background: var(--light-bg);
     cursor: pointer;
 }
 .services .box-container .box:hover{
@@ -270,6 +270,10 @@ padding-top: 1rem;
     border: var(--border);
     box-shadow: var(--box-shadow);
     background-color: var(--white);
+}
+
+.home-packages .box-container .box:hover .image img{
+    transform: scale(1.1);
 }
 
 .home-packages .box-container .box .image{
@@ -396,6 +400,7 @@ padding-top: 1rem;
     background-color: var(--white);
     text-align: center;
     box-shadow: var(--box-shadow);
+    user-select: none;
 }
 
 .reviews .slide .stars{
@@ -430,6 +435,116 @@ padding-top: 1rem;
     border-radius: 50%;
     margin-top: 1rem;
 }
+
+.packages{
+    background-color: var(--light-bg);
+}
+
+.packages .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap: 2rem;
+}
+
+.packages .box-container .box{
+    border: var(--border);
+    box-shadow: var(--box-shadow);
+    background-color: var(--white);
+    display: none;
+}
+
+.packages .box-container .box:nth-child(1),
+.packages .box-container .box:nth-child(2),
+.packages .box-container .box:nth-child(3),
+.packages .box-container .box:nth-child(4),
+.packages .box-container .box:nth-child(5),
+.packages .box-container .box:nth-child(6){
+    display: inline-block;
+}
+
+.packages .box-container .box:hover .image img{
+    transform: scale(1.1);
+}
+
+.packages .box-container .box .image{
+    height: 25rem;
+    overflow: hidden;
+}
+
+.packages .box-container .box .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+
+.packages .box-container .box .content{
+    padding: 2rem;
+    text-align: center;
+}
+
+.packages .box-container .box .content h3{
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+.packages .box-container .box .content p{
+    font-size: 1.5rem;
+    color: var(--light-black);
+    line-height: 2;
+    padding: 1rem 0;
+}
+
+.packages .load-more {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.booking .book-form{
+    padding: 2rem;
+    background-color: var(--light-bg);
+}
+
+.booking .book-form .flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.booking .book-form .flex .inputBox{
+    flex: 1 1 41rem;
+}
+
+.booking .book-form .flex .inputBox input{
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    font-size: 1.6rem;
+    color: var(--light-black);
+    text-transform: none;
+    margin-top: 1.5rem;
+    border: var(--border);
+}
+
+.booking .book-form .flex .inputBox input:focus{
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.booking .book-form .flex .inputBox input:focus::placeholder{
+    color: var(--light-white);
+}
+
+.booking .book-form .flex .inputBox span{
+    font-size: 2rem;
+    color: var(--light-black);
+}
+
+.booking .book-form .btn{
+    margin-top: 2rem;
+}
+
+
+
 
 
 

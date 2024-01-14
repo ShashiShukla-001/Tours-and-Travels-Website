@@ -118,29 +118,29 @@
         
         <div class="box">
             <div class="image">
-                <img src="images/packages/yasaka-pagoda-sannen-zaka-street-kyoto-japan.jpg" alt="">
-            </div>
-            <div class="content">
-                <h3>Adventure & Tour</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, temporibus!</p>
-                <a href="book.php" class="btn">Book Now</a>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/packages/woman-wearing-hill-tribe-dress-sitting-hut-green-tea-field.jpg" alt="">
-            </div>
-            <div class="content">
-                <h3>Adventure & Tour</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, temporibus!</p>
-                <a href="book.php" class="btn">Book Now</a>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
                 <img src="images/packages/1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Adventure & Tour</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, temporibus!</p>
+                <a href="book.php" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/packages/2.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Adventure & Tour</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit, temporibus!</p>
+                <a href="book.php" class="btn">Book Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/packages/3.jpg" alt="">
             </div>
             <div class="content">
                 <h3>Adventure & Tour</h3>

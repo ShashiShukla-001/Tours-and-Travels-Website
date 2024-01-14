@@ -25,7 +25,7 @@
 </section>
 <!--header section end-->
 
-<div class="heading" style="background:url(images/about-us/aboutūs-banner.png)no-repeat">
+<div class="heading" style="background:url(images/about-us/about-us-header.jpg)no-repeat">
     <h1>About Us</h1>
 </div>
 
@@ -61,10 +61,10 @@
 
 <!--reviews section -->
 <section class="reviews">
-
+    <h1 class="heading-title">Clients Reviews</h1>
     <div class="swiper reviews-slider">
         <div class="swiper-wrapper">
-            <div class="swiper-slider slide">
+            <div class="swiper-slide slide">
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -78,7 +78,7 @@
                 <img src="images/clients/photography-7527978_1280.jpg" alt="">
             </div>
 
-            <div class="swiper-slider slide">
+            <div class="swiper-slide slide">
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -92,7 +92,7 @@
                 <img src="images/clients/girl-5028253_1280.jpg" alt="">
             </div>
 
-            <div class="swiper-slider slide">
+            <div class="swiper-slide slide">
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -104,7 +104,7 @@
                 <img src="images/clients/girls-5021801_1280.jpg" alt="">
             </div>
 
-            <div class="swiper-slider slide">
+            <div class="swiper-slide slide">
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -118,7 +118,7 @@
                 <img src="images/clients/man-920083_1280.jpg" alt="">
             </div>
 
-            <div class="swiper-slider slide">
+            <div class="swiper-slide slide">
                 <div class="stars">
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
